@@ -28,7 +28,7 @@ public class FreteService {
 
         double valorFrete = strategy.calcular(request, freteValoresDefault);
 
-        return new CalculoFreteResponse(request.getTipoFrete(), valorFrete, null);
+        return new CalculoFreteResponse(request.getTipoFrete(), valorFrete);
 
     }
 

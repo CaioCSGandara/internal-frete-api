@@ -29,7 +29,6 @@ public class FreteServiceTest {
 
         assertThat(calculoFreteResponse.getTipoFrete()).isEqualTo("normal");
         assertEquals(21.59, calculoFreteResponse.getValorFrete(), 0.01);
-        assertThat(calculoFreteResponse.getErrorMsg()).isNull();
     }
 
     @Test

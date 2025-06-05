@@ -8,5 +8,4 @@ import lombok.Data;
 public class CalculoFreteResponse {
     private String tipoFrete;
     private double valorFrete;
-    private String errorMsg;
 }
